@@ -66,7 +66,7 @@ function Hero() {
 
       <Navbar />
 
-      <div className="relative mx-auto max-w-7xl px-6 pt-28 pb-16 md:pt-36 lg:pt-44 lg:pb-24 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen">
+      <div className="relative mx-auto max-w-7xl px-6 pt-32 pb-16 md:pt-40 lg:pt-48 lg:pb-24 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen">
         <div>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.8 }}>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs tracking-widest uppercase text-coffee">

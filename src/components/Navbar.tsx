@@ -38,13 +38,11 @@ export function Navbar() {
         }`}
         style={{ backdropFilter: scrolled ? `blur(${blur.get()}px)` : "none" }}
       >
+        <div className="mx-auto max-w-7xl px-6">
         <div
-          className={`mx-auto max-w-7xl px-6 flex items-center justify-between transition-all duration-500 ${
-            scrolled
-              ? "glass rounded-full shadow-soft py-3 px-6"
-              : ""
+          className={`flex items-center justify-between transition-all duration-500 ${
+            scrolled ? "glass rounded-full shadow-soft py-3 px-6" : ""
           }`}
-          style={scrolled ? { margin: "0 1.5rem" } : {}}
         >
           <a href="#top" className="flex items-center gap-2 group">
             <motion.div
@@ -92,6 +90,7 @@ export function Navbar() {
               )}
             </AnimatePresence>
           </button>
+        </div>
         </div>
       </motion.header>
 
